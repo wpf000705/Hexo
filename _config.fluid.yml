@@ -170,7 +170,8 @@ post:
   mermaid:
     enable: false
   comments:
-    enable: false
+    enable: true
+    type: giscus
 
 archive:
   banner_img: /img/default.png
@@ -225,3 +226,16 @@ page404:
 
 links:
   enable: false
+
+giscus:
+  repo: wpf000705/Hexo
+  repo-id: R_kgDOSqmSWQ
+  category: Announcements
+  category-id: DIC_kwDOSqmSWc4C-CPJ
+  theme-light: light
+  theme-dark: dark
+  mapping: pathname
+  reactions-enabled: 1
+  emit-metadata: 0
+  input-position: top
+  lang: zh-CN
