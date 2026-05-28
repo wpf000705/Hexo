@@ -76,4 +76,4 @@ npm run deploy
    Node.js Version: 20.x or newer
    ```
 
-5. 部署完成后，把 `_config.yml` 中的 `url` 从 `https://BLOG_DOMAIN` 改为真实域名或 Vercel 分配的地址。
+5. 部署完成后，把 `_config.yml` 中的 `url` 改为真实域名或 Vercel 分配的地址。
