@@ -1,0 +1,227 @@
+# Fluid theme overrides for this blog.
+# Replace BLOG_* and AUTHOR_* placeholders before publishing a real site.
+
+favicon: /img/fluid.png
+apple_touch_icon: /img/fluid.png
+
+dark_mode:
+  enable: true
+  default: auto
+
+code:
+  copy_btn: true
+  language:
+    enable: true
+    default: TEXT
+  highlight:
+    enable: true
+    line_number: true
+    lib: highlightjs
+    highlightjs:
+      style: github gist
+      style_dark: dark
+
+fun_features:
+  typing:
+    enable: true
+    typeSpeed: 70
+    cursorChar: _
+    loop: false
+    scope:
+      - home
+  anchorjs:
+    enable: true
+    element: h1,h2,h3,h4,h5,h6
+    placement: left
+    visible: hover
+    icon: "#"
+  progressbar:
+    enable: true
+    height_px: 3
+    color: "#29d"
+    options:
+      showSpinner: false
+      trickleSpeed: 100
+
+navbar:
+  blog_title: BLOG_TITLE
+  ground_glass:
+    enable: false
+  menu:
+    - { key: "home", link: "/", icon: "iconfont icon-home-fill" }
+    - { key: "archive", link: "/archives/", icon: "iconfont icon-archive-fill" }
+    - { key: "category", link: "/categories/", icon: "iconfont icon-category-fill" }
+    - { key: "tag", link: "/tags/", icon: "iconfont icon-tags-fill" }
+    - { key: "about", link: "/about/", icon: "iconfont icon-user-fill" }
+
+search:
+  enable: false
+
+banner:
+  random_img: false
+  parallax: true
+  width_height_ratio: 1.0
+
+scroll_down_arrow:
+  enable: true
+  banner_height_limit: 80
+  scroll_after_turning_page: true
+
+scroll_top_arrow:
+  enable: true
+
+open_graph:
+  enable: true
+  twitter_card: summary_large_image
+
+footer:
+  content: '
+    <span>Copyright © AUTHOR_NAME</span>
+    <span class="mx-1">|</span>
+    <a href="https://hexo.io" target="_blank" rel="nofollow noopener"><span>Hexo</span></a>
+    <i class="iconfont icon-love"></i>
+    <a href="https://github.com/fluid-dev/hexo-theme-fluid" target="_blank" rel="nofollow noopener"><span>Fluid</span></a>
+  '
+  statistics:
+    enable: false
+  beian:
+    enable: false
+
+index:
+  banner_img: /img/default.png
+  banner_img_height: 100
+  banner_mask_alpha: 0.35
+  slogan:
+    enable: true
+    text:
+      - BLOG_SUBTITLE
+      - 记录技术、项目和长期思考
+      - Build, learn, write, repeat.
+  auto_excerpt:
+    enable: true
+  post_url_target: _self
+  post_meta:
+    date: true
+    category: true
+    tag: true
+  post_sticky:
+    enable: true
+    icon: "iconfont icon-top"
+
+post:
+  banner_img: /img/default.png
+  banner_img_height: 70
+  banner_mask_alpha: 0.35
+  meta:
+    author:
+      enable: true
+    date:
+      enable: true
+      format: "LL"
+    wordcount:
+      enable: true
+    min2read:
+      enable: true
+      awl: 2
+      wpm: 90
+    views:
+      enable: false
+  updated:
+    enable: true
+    date_format: "LL"
+    relative: false
+    note_class: info
+  category_bar:
+    enable: true
+    specific: false
+    placement: left
+    post_order_by: "-date"
+    post_limit: 8
+  toc:
+    enable: true
+    expand_all: true
+    placement: right
+    headingSelector: "h1,h2,h3,h4,h5,h6"
+    collapseDepth: 0
+  copyright:
+    enable: true
+    license: BY-NC-SA
+    author:
+      enable: true
+    post_date:
+      enable: true
+      format: "LL"
+    update_date:
+      enable: false
+      format: "LL"
+  prev_next:
+    enable: true
+  image_caption:
+    enable: true
+  image_zoom:
+    enable: true
+    img_url_replace:
+      - ""
+      - ""
+  footnote:
+    enable: true
+  math:
+    enable: false
+  mermaid:
+    enable: false
+  comments:
+    enable: false
+
+archive:
+  banner_img: /img/default.png
+  banner_img_height: 60
+  banner_mask_alpha: 0.35
+
+category:
+  enable: true
+  banner_img: /img/default.png
+  banner_img_height: 60
+  banner_mask_alpha: 0.35
+  order_by: "-length"
+  collapse_depth: 0
+  post_order_by: "-date"
+  post_limit: 10
+
+tag:
+  enable: true
+  banner_img: /img/default.png
+  banner_img_height: 70
+  banner_mask_alpha: 0.35
+  tagcloud:
+    min_font: 15
+    max_font: 30
+    unit: px
+    start_color: "#6B7280"
+    end_color: "#2563EB"
+
+about:
+  enable: true
+  banner_img: /img/default.png
+  banner_img_height: 60
+  banner_mask_alpha: 0.35
+  avatar: /img/avatar.png
+  name: AUTHOR_NAME
+  intro: BLOG_DESCRIPTION
+  icons:
+    - { class: "iconfont icon-github-fill", link: "GITHUB_URL", tip: "GitHub" }
+    - { class: "iconfont icon-mail", link: "mailto:EMAIL_ADDRESS", tip: "Email" }
+
+page:
+  banner_img: /img/default.png
+  banner_img_height: 60
+  banner_mask_alpha: 0.35
+
+page404:
+  enable: true
+  banner_img: /img/default.png
+  banner_img_height: 85
+  banner_mask_alpha: 0.35
+  redirect_delay: 5000
+
+links:
+  enable: false
