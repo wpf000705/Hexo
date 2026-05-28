@@ -98,6 +98,12 @@ ignore:
 ## Themes: https://hexo.io/themes/
 theme: fluid
 
+search:
+  path: local-search.xml
+  field: all
+  content: true
+  format: html
+
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:

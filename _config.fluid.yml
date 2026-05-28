@@ -55,7 +55,11 @@ navbar:
     - { key: "about", link: "/about/", icon: "iconfont icon-user-fill" }
 
 search:
-  enable: false
+  enable: true
+  path: /local-search.xml
+  generate_path: /local-search.xml
+  field: all
+  content: true
 
 banner:
   random_img: false
