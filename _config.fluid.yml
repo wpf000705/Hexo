@@ -44,7 +44,7 @@ fun_features:
       trickleSpeed: 100
 
 navbar:
-  blog_title: BLOG_TITLE
+  blog_title: 西瓜保甜
   ground_glass:
     enable: false
   menu:
@@ -76,7 +76,7 @@ open_graph:
 
 footer:
   content: '
-    <span>Copyright © AUTHOR_NAME</span>
+    <span>Copyright © 西瓜保甜</span>
     <span class="mx-1">|</span>
     <a href="https://hexo.io" target="_blank" rel="nofollow noopener"><span>Hexo</span></a>
     <i class="iconfont icon-love"></i>
@@ -94,7 +94,7 @@ index:
   slogan:
     enable: true
     text:
-      - BLOG_SUBTITLE
+      - 记录技术、生活和成长
       - 记录技术、项目和长期思考
       - Build, learn, write, repeat.
   auto_excerpt:
@@ -205,11 +205,11 @@ about:
   banner_img_height: 60
   banner_mask_alpha: 0.35
   avatar: /img/avatar.png
-  name: AUTHOR_NAME
-  intro: BLOG_DESCRIPTION
+  name: 西瓜保甜
+  intro: 记录技术学习、项目实践和日常思考。
   icons:
-    - { class: "iconfont icon-github-fill", link: "GITHUB_URL", tip: "GitHub" }
-    - { class: "iconfont icon-mail", link: "mailto:EMAIL_ADDRESS", tip: "Email" }
+    - { class: "iconfont icon-github-fill", link: "https://github.com/wpf000705", tip: "GitHub" }
+    - { class: "iconfont icon-mail", link: "mailto:550245322@qq.com", tip: "Email" }
 
 page:
   banner_img: /img/default.png

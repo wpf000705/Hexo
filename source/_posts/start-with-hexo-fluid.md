@@ -10,7 +10,7 @@ tags:
   - 博客搭建
 ---
 
-这是 BLOG_TITLE 的第一篇示例文章。它用来确认 Hexo、Fluid 主题、分类、标签、归档和文章页目录都能正常工作。
+这是西瓜保甜的第一篇示例文章。它用来确认 Hexo、Fluid 主题、分类、标签、归档和文章页目录都能正常工作。
 
 <!-- more -->
 
@@ -48,4 +48,4 @@ npx hexo new "文章标题"
 
 ## 下一步
 
-把 `BLOG_TITLE`、`AUTHOR_NAME`、`BLOG_SUBTITLE`、`BLOG_DESCRIPTION`、`GITHUB_URL`、`EMAIL_ADDRESS` 等占位符替换成真实信息，然后推送到 Git 仓库并连接 Vercel。
+现在博客已经部署到 Vercel。后续可以继续修改个人介绍，或者直接在 `source/_posts/` 目录下添加新的 Markdown 文章。

@@ -1,4 +1,4 @@
-# BLOG_TITLE
+# 西瓜保甜
 
 基于 Hexo 和 Hexo Theme Fluid 的个人技术博客模板。
 
@@ -29,22 +29,15 @@ npm run deploy
 - `server`：启动本地预览服务。
 - `deploy`：清理后重新生成静态文件，适合上线前检查。
 
-## 个性化占位符
+## 个性化信息
 
-发布前建议搜索并替换这些占位符：
+当前博客已设置为：
 
-- `BLOG_TITLE`
-- `BLOG_SUBTITLE`
-- `BLOG_DESCRIPTION`
-- `BLOG_DOMAIN`
-- `BLOG_KEYWORDS`
-- `AUTHOR_NAME`
-- `AVATAR_URL`
-- `GITHUB_URL`
-- `EMAIL_ADDRESS`
-- `TECH_STACK`
-- `PROJECT_DIRECTION`
-- `WRITING_TOPICS`
+- 博客名称：西瓜保甜
+- 作者名称：西瓜保甜
+- 邮箱：550245322@qq.com
+- GitHub：https://github.com/wpf000705
+- 线上地址：https://hexo-three-flame.vercel.app
 
 主要配置文件：
 

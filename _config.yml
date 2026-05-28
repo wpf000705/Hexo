@@ -3,11 +3,11 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: BLOG_TITLE
-subtitle: BLOG_SUBTITLE
-description: BLOG_DESCRIPTION
-keywords: BLOG_KEYWORDS,Hexo,Fluid,技术博客
-author: AUTHOR_NAME
+title: 西瓜保甜
+subtitle: 记录技术、生活和成长
+description: 这里是西瓜保甜的个人博客，记录技术学习、项目实践和日常思考。
+keywords: 西瓜保甜,个人博客,技术博客,Hexo,Fluid
+author: 西瓜保甜
 language: zh-CN
 timezone: Asia/Shanghai
 

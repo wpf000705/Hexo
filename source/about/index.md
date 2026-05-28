@@ -4,15 +4,15 @@ date: 2026-05-29 10:00:00
 layout: about
 ---
 
-你好，我是 AUTHOR_NAME。
+你好，我是西瓜保甜。
 
-这里是 BLOG_TITLE，一个用来记录技术笔记、项目实践和长期思考的个人博客。
+这里是西瓜保甜，一个用来记录技术笔记、项目实践和长期思考的个人博客。
 
 ## 关注方向
 
-- 技术栈：TECH_STACK
-- 项目方向：PROJECT_DIRECTION
-- 写作主题：WRITING_TOPICS
+- 技术栈：前端开发、后端基础、自动化工具和 AI 辅助开发
+- 项目方向：个人效率工具、Web 应用和技术博客建设
+- 写作主题：技术学习、项目实践、问题排查和日常思考
 
 ## 当前计划
 
@@ -22,5 +22,5 @@ layout: about
 
 ## 联系方式
 
-- GitHub：GITHUB_URL
-- Email：EMAIL_ADDRESS
+- GitHub：https://github.com/wpf000705
+- Email：550245322@qq.com
